@@ -85,3 +85,33 @@ And join the Nx community:
 ```sh
 npx create-nx-workspace@latest --preset nest --name nx-prod  --appName auth
 ```
+
+## Prisma Install
+
+```sh
+npm i prisma --save-dev
+npm i @prisma/client --save
+```
+
+### create a schema.prisma file in auth service at prisma folder
+
+```sh
+# module prisma create
+nx g @nx/nest:module apps/auth/src/app/prisma/prisma
+
+# service prisma create
+nx g @nx/nest:service apps/auth/src/app/prisma/prisma
+
+#controller create on api-gateway service
+nx g @nx/nest:controller apps/api-gateway/src/app/product/product
+
+# graphql install
+npm i @nestjs/graphql @nestjs/apollo @apollo/server graphql --save
+
+```
+
+## Create User Service
+
+```sh
+nx g @nx/nest:app apps/users
+```
