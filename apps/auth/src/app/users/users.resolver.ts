@@ -9,19 +9,15 @@ import { CreateUserInput } from './dto/create-user.input';
 export class UsersResolver {
   constructor(private readonly usersService: UsersService) { }
 
-  @Query(() => [User], { name: 'users' })
-  async getUsers() {
-    // return this.usersService.getUsers();
+
+  @Mutation(() => User)
+  async createUser(@Args('createUserInput') createUserInput: CreateUserInput) {
+    return this.usersService.createUser(createUserInput);
   }
 
-  // @Mutation(() => User)
-  // async createUser(@Args('createUserInput') createUserInput: CreateUserInput) {
-  //   return this.usersService.createUser(createUserInput);
-  // }
-
   // @UseGuards(GqlAuthGuard)
-  // @Query(() => [User], { name: 'users' })
-  // async getUsers() {
-  //   return this.usersService.getUsers();
-  // }
+  @Query(() => [User], { name: 'users' })
+  async getUsers() {
+    return this.usersService.getUsers();
+  }
 }
