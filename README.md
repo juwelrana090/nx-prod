@@ -110,8 +110,8 @@ npm i @nestjs/graphql @nestjs/apollo @apollo/server graphql --save
 
 ```
 
-## Create User Service
+## Library create on NX
 
 ```sh
-nx g @nx/nest:app apps/users
+nx g library libs/nestjs
 ```
