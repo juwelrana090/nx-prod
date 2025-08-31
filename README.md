@@ -108,10 +108,19 @@ nx g @nx/nest:controller apps/api-gateway/src/app/product/product
 # graphql install
 npm i @nestjs/graphql @nestjs/apollo @apollo/server graphql --save
 
+# types generate
+nx run auth:generate-types
+
+# migrate prisma
+nx run auth:migrate-prisma:init
+
+
 ```
 
 ## Library create on NX
 
 ```sh
 nx g library libs/nestjs
+
+npm install class-transformer class-validator
 ```
