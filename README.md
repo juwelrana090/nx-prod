@@ -111,6 +111,9 @@ npm i @nestjs/graphql @nestjs/apollo @apollo/server graphql --save
 # types generate
 nx run auth:generate-types
 
+
+
+
 # migrate prisma
 nx run auth:migrate-prisma:init
 
@@ -147,3 +150,13 @@ nx g library libs/nestjs
 
 npm install class-transformer class-validator
 ```
+
+## Library test on jest.preset.js update
+
+```javascript
+const nxPreset = require('@nx/jest/preset').default;
+
+module.exports = { ...nxPreset, passWithNoTests: true };
+```
+
+## project auth test failed fixed
