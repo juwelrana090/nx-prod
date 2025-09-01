@@ -159,4 +159,9 @@ const nxPreset = require('@nx/jest/preset').default;
 module.exports = { ...nxPreset, passWithNoTests: true };
 ```
 
-## project auth test failed fixed
+## Config Module install
+
+```sh
+npm i @nestjs/config dotenv
+```
+
