@@ -1,8 +1,181 @@
 {
   "recommendations": [
-    "nrwl.angular-console",
-    "esbenp.prettier-vscode",
+    // NestJS Specific
+    "ashinzekene.nestjs",
+    "czfadmin.nestjs-tool",
+    "rubiin.nestjs",
+    "imgildev.vscode-nestjs-generator",
+    "imgildev.vscode-nestjs-snippets-extension",
+    "abhijoybasak.nestjs-files",
+    // TypeScript/JavaScript
+    "gydunhn.javascript-essentials",
+    "gydunhn.typescript-essentials",
+    "gydunhn.vsc-essentials-core",
+    "loiane.ts-extension-pack",
+    "mattpocock.ts-error-translator",
+    "pmneo.tsimporter",
+    "steoates.autoimport",
+    "stringham.move-ts",
+    "yoavbls.pretty-ts-errors",
+    "zardoy.ts-essential-plugins",
+    "ms-vscode.vscode-typescript-next",
+    "xabikos.javascriptsnippets",
+    "gregorbiswanger.json2ts",
+    // Node.js
+    "christian-kohler.npm-intellisense",
+    "gamunu.vscode-yarn",
+    "jasonnutter.search-node-modules",
+    "wix.vscode-import-cost",
+    // Testing
+    "firsttris.vscode-jest-runner",
+    "hbenl.vscode-test-explorer",
+    "lucono.karma-test-explorer",
+    "ms-vscode.test-adapter-converter",
+    // Code Quality & Formatting
     "dbaeumer.vscode-eslint",
-    "firsttris.vscode-jest-runner"
+    "esbenp.prettier-vscode",
+    "kisstkondoros.vscode-codemetrics",
+    "usernamehw.errorlens",
+    "streetsidesoftware.code-spell-checker",
+    // General Development
+    "aaron-bond.better-comments",
+    "alefragnani.bookmarks",
+    "bierner.emojisense",
+    "bierner.markdown-checkbox",
+    "bierner.markdown-emoji",
+    "christian-kohler.path-intellisense",
+    "codezombiech.gitignore",
+    "davidanson.vscode-markdownlint",
+    "dzhavat.bracket-pair-toggler",
+    "eamodio.gitlens",
+    "editorconfig.editorconfig",
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-complete-tag",
+    "formulahendry.auto-rename-tag",
+    "formulahendry.code-runner",
+    "fractalbrew.backticks",
+    "gruntfuggly.todo-tree",
+    "ibm.output-colorizer",
+    "mhutchie.git-graph",
+    "miguelsolorio.fluent-icons",
+    "mikestead.dotenv",
+    "oderwat.indent-rainbow",
+    "pkief.material-icon-theme",
+    "shardulm94.trailing-spaces",
+    "tombonnike.vscode-status-bar-format-toggle",
+    "vscode-icons-team.vscode-icons",
+    "yzhang.markdown-all-in-one",
+    // Auto Import/Barrel
+    "imgildev.vscode-auto-barrel",
+    "imgildev.vscode-json-flow",
+    // GraphQL
+    "mquandalle.graphql",
+    // Database
+    "cweijan.dbclient-jdbc",
+    "cweijan.vscode-mysql-client2",
+    "prisma.prisma",
+    "damms005.devdb",
+    // API Testing
+    "rangav.vscode-thunder-client",
+    // Terminal
+    "flyfly6.terminal-in-status-bar",
+    // Version Control
+    "github.codespaces",
+    "github.copilot",
+    "github.copilot-chat",
+    "github.remotehub",
+    "github.vscode-github-actions",
+    "gitlab.gitlab-workflow",
+    // Remote Development
+    "ms-vscode-remote.remote-containers",
+    "ms-vscode-remote.remote-ssh",
+    "ms-vscode-remote.remote-ssh-edit",
+    "ms-vscode-remote.remote-wsl",
+    "ms-vscode-remote.vscode-remote-extensionpack",
+    "ms-vscode.remote-explorer",
+    "ms-vscode.remote-repositories",
+    "ms-vscode.remote-server",
+    // Docker & Kubernetes
+    "docker.docker",
+    "ms-azuretools.vscode-containers",
+    "ms-kubernetes-tools.vscode-kubernetes-tools",
+    // Conventional Commits
+    "vivaxy.vscode-conventional-commits",
+    // IntelliCode
+    "visualstudioexptteam.intellicode-api-usage-examples",
+    "visualstudioexptteam.vscodeintellicode",
+    // Protocol Buffers
+    "plex.vscode-protolint",
+    // Azure Repos
+    "ms-vscode.azure-repos"
+  ],
+  "unwantedRecommendations": [
+    // PHP
+    "bmewburn.vscode-intelephense-client",
+    "devsense.composer-php-vscode",
+    "devsense.intelli-php-vscode",
+    "devsense.phptools-vscode",
+    "devsense.profiler-php-vscode",
+    "zobo.php-intellisense",
+    "xdebug.php-debug",
+    "xdebug.php-pack",
+    "rifi2k.format-html-in-php",
+    // Laravel
+    "amiralizadeh9480.laravel-extra-intellisense",
+    "codingyu.laravel-goto-view",
+    "onecentlin.laravel-blade",
+    "onecentlin.laravel-extension-pack",
+    "onecentlin.laravel5-snippets",
+    "naoray.laravel-goto-components",
+    "pgl.laravel-jump-controller",
+    "laravel.vscode-laravel",
+    "glitchbl.laravel-create-view",
+    "hbenl.laravel-blade-wrapper",
+    "ryannaddy.laravel-artisan",
+    "shufo.vscode-blade-formatter",
+    // WordPress
+    "hridoy.wordpress",
+    "wordpresstoolbox.wordpress-toolbox",
+    // Flutter/Dart
+    "dart-code.dart-code",
+    "dart-code.flutter",
+    "alexisvt.flutter-snippets",
+    "amiralizadeh9480.flutter-widget-wrap",
+    "hzgood.dart-data-class-generator",
+    "luanpotter.dart-import",
+    "marcelovelasquez.flutter-tree",
+    "oscarcs.dart-syntax-highlighting-only",
+    // React/Next.js Frontend (not needed for backend NestJS)
+    "dsznajder.es7-react-js-snippets",
+    "rodrigovallades.es7-react-js-snippets",
+    "planbcoding.vscode-react-refactor",
+    "willluke.nextjs",
+    "imgildev.vscode-nextjs-generator",
+    // React Native
+    "msjsdiag.vscode-react-native",
+    "jundat95.react-native-snippet",
+    "equimper.react-native-react-redux",
+    "expo.vscode-expo-tools",
+    // Angular
+    "angular.ng-template",
+    "johnpapa.angular2",
+    "nrwl.angular-console",
+    "imgildev.vscode-angular-generator",
+    // Vue
+    "hollowtree.vue-snippets",
+    "vue.volar",
+    // Python
+    "ms-python.debugpy",
+    "ms-python.isort",
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "ms-python.vscode-python-envs",
+    // Live Server (not needed for backend)
+    "ritwickdey.liveserver",
+    // CSS/Styling (not primary concern for backend)
+    "bradlc.vscode-tailwindcss",
+    "zarifprogrammer.tailwind-snippets",
+    "blanu.vscode-styled-jsx",
+    "styled-components.vscode-styled-components"
   ]
 }

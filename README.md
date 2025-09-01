@@ -117,6 +117,29 @@ nx run auth:migrate-prisma:init
 
 ```
 
+## Husky install on nx
+
+```sh
+npm i --save-dev husky lint-staged
+npx husky init
+
+# Update pre-commit
+# ".husky\pre-commit"
+npx lint-staged --relative
+
+```
+
+## Create .lintstagedrc
+
+```javascript
+
+{
+  "*.ts": ["nx affected:lint --fix --files"],
+  "*": ["nx format:write --files"]
+}
+
+```
+
 ## Library create on NX
 
 ```sh
